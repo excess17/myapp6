@@ -1,0 +1,13 @@
+code: myapp6-bundle
+description: This is the myapp6 bundle
+
+components:
+  plugins:
+    - plugins/myapp6-plugin.yaml
+
+  widgets:
+    - ui/widgets/city/tableWidget/city-table-widget-descriptor.yaml
+    - ui/widgets/city/detailsWidget/city-details-widget-descriptor.yaml
+    - ui/widgets/city/formWidget/city-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
